@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(153, 205, 235);
+}
+.container {
+    width: 500px;
+    border: 2px solid rgb(4, 21, 4);
+    border-radius: 5px;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+  }
+
+  .container input{
+    resize: horizontal;
+    width: 450px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+
+  .container button{
+    padding: 13px 25px;
+    float: right;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    background-color: rgb(4, 21, 4);
+    border-color: rgb(4, 21, 4);
+    color: white;
+    border-radius: 5px;
+  }
